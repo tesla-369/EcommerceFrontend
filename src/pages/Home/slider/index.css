@@ -1,0 +1,135 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+
+
+.homeSlider {
+    padding: 1.875rem 0; 
+}
+
+.home_slider_Main {
+    border-radius: 1.5625rem; 
+    overflow: hidden;
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 47%;
+    width: 3.75rem !important; 
+    height: 3.75rem !important; 
+    border-radius: 50% !important;
+    background: #F2F3F4;
+    z-index: 1000 !important;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0.1875rem 0.375rem rgba(0,0,0,0.16), 0 0.1875rem 0.375rem rgba(0,0,0,0.23) !important; 
+}
+
+.slick-arrow.slick-next {
+    right: 2% !important;
+}
+
+.slick-arrow.slick-prev {
+    left: 2% !important;
+}
+
+.slick-prev:before {
+    content: "\f104" !important;
+    font-family: FontAwesome !important;
+    font-size: 1.875rem; 
+    color: #000;
+}
+
+.slick-next:before {
+    content: "\f105" !important;
+    font-family: FontAwesome !important;
+    font-size: 1.875rem; 
+    color: #000;
+}
+
+.slick-arrow:hover {
+    background: #a8a608 !important;
+}
+
+.slick-arrow:hover::before {
+    color: #fff !important;
+}
+
+.home_slider_Main .slick-dots {
+    position: absolute;
+    bottom: 1.875rem !important; 
+}
+
+.home_slider_Main .slick-dots button::before {
+    width: 0.625rem !important; 
+    height: 0.625rem !important; 
+    font-size: 1rem !important; 
+}
+
+.slick-active button::before {
+    color: #a8a608 !important;
+}
+
+.home_slider_Main .item .info {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    z-index: 100;
+}
+
+.home_slider_Main .item .info h2 {
+    font-size: 4.0625rem; 
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+}
+
+.home_slider_Main .item .info p {
+    font-size: 1.5625rem; 
+    font-weight: 400;
+    color: #7E7E7E;
+    padding: 0;
+}
+
+.homeSlider .newsLetterBanner {
+    width: 37.5rem; 
+    height: 3.75rem; 
+    position: absolute;
+    bottom: 6.25rem; 
+    left: 7%;
+    z-index: 10;
+}
+
+.homeSlider .newsLetterBanner input {
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    border-radius: 3.125rem; 
+    border: 0;
+    outline: none;
+    padding-left: 2.5rem; 
+    font-size: 1.25rem; 
+    position: relative;
+}
+
+.homeSlider .newsLetterBanner button {
+    padding: 0.9375rem 1.875rem !important; 
+    border-radius: 3.125rem !important; 
+    color: #fff !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 3.75rem; 
+    margin-right: 20%;
+    font-size: 1.25rem !important; 
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+}
+
+.homeSlider .newsLetterBanner svg {
+    position: absolute;
+    top: 1.0625rem; 
+    left: 0.625rem; 
+    z-index: 10;
+    font-size: 1.375rem !important; 
+    transform: rotate(-21deg);
+    opacity: 0.5;
+}

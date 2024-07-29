@@ -1,0 +1,14 @@
+
+.bannerSection {
+    padding: 1.5625rem 0; 
+}
+
+.bannerSection .box {
+    overflow: hidden; 
+    border-radius: 0.9375rem; 
+    cursor: pointer;
+}
+
+.bannerSection .box:hover img {
+    transform: scale(1.1);
+}
